@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.outer-box {
+    border-top: 30px solid #80b2e6;
+    border-left: 10px solid #80b2e6;
+    border-right: 10px solid #80b2e6;
+    border-bottom: 10px solid #80b2e6;
+    padding: 5px;
+    display: inline-block;
+}
+.inner-box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    height: 20px;
+}
+
+input.error-input {
+    border: 2px solid red;
+    background: #ffe6e6;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
