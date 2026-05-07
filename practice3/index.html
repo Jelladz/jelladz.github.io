@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng điểm sinh viên</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="title">Bảng điểm sinh viên &reg;</h2>
+  
+  <table id="gradesTable">
+    <tr>
+      <th>Môn học&sect;</th>
+      <th>Điểm&ge;</th>
+    </tr>
+    <tr>
+      <td>Toán</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Văn</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Tiếng Anh</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Tin học</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <button onclick="calculateAverage()">Calculate Average</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
