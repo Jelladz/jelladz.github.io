@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabbed Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 class="title">Tabbed Content Interface &rightarrow;</h2>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('features')">Features &reg;</button>
+    <button class="tab" onclick="switchTab('pricing')">Pricing &euro;</button>
+    <button class="tab" onclick="switchTab('reviews')">Reviews</button>
+    <button class="tab" onclick="switchTab('support')">Support</button>
+  </div>
+
+  <div id="features" class="tab-content active">
+    <p>Nội dung về tính năng sản phẩm.</p>
+  </div>
+  <div id="pricing" class="tab-content">
+    <p>Nội dung về giá cả.</p>
+  </div>
+  <div id="reviews" class="tab-content">
+    <p>Nội dung về đánh giá khách hàng.</p>
+  </div>
+  <div id="support" class="tab-content">
+    <p>Nội dung về hỗ trợ.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
